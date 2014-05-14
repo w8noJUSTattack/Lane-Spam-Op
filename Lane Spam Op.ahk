@@ -1,4 +1,4 @@
-;This file is written in auto hotkey(.ahk) if you want to run this file peaze download autohotkey
+;This file is written in auto hotkey(.ahk) if you want to run this file pleas download autohotkey
 UniqueID := #IfWinActive, 0x1c907c4
 ~Tab & t::
 ControlClick, x500 y735, PVP.net Client
