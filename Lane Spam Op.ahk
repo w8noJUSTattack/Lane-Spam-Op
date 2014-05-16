@@ -1,30 +1,30 @@
-;This file is written in auto hotkey(.ahk) if you want to run this file pleas download autohotkey
+;This file is written in auto hotkey(.ahk) if you want to run this file please download autohotkey
 UniqueID := #IfWinActive, 0x1c907c4
-~Tab & t::
+~!t::
 ControlClick, x500 y735, PVP.net Client
 Send, Top
 Send, {Enter}
 return
 
-~Tab & j::
+~!j::
 ControlClick, x500 y735, PVP.net Client
 Send, Jungle
 Send, {Enter}
 return
 
-~Tab & m::
+~!m::
 ControlClick, x500 y735, PVP.net Client
 Send, Mid
 Send, {Enter}
 return
 
-~Tab & s::
+~!s::
 ControlClick, x500 y735, PVP.net Client
 Send, Support
 Send, {Enter}
 return
 
-~Tab & a::
+~!a::
 ControlClick, x500 y735, PVP.net Client
 Send, ADC
 Send, {Enter}
